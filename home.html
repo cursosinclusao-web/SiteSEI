@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana da Educação Inclusiva</title>
+    
+    <!-- Tipografia Divertida e Arredondada -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="assets/img/logo.png">
+</head>
+<body>
+
+    <!-- BARRA FIXADA ALEGRE -->
+    <!-- BARRA SUPERIOR FIXA ALEGRE -->
+<header class="sticky-header visible" id="sticky-header">
+    <!-- LADO ESQUERDO: LOGO E TÍTULO DO EVENTO -->
+    <div class="sticky-left">
+        <a href="home.html" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
+            <img src="assets/img/logo.png" alt="Logo Inclusiva" class="mini-logo">
+            <h2 class="sticky-title">Semana da Educação Inclusiva</h2>
+        </a>
+    </div>
+
+    <!-- LADO DIREITO: MENU DE NAVEGAÇÃO + BOTÃO DE INSCRIÇÃO -->
+    <div class="sticky-right">
+        <nav class="nav-menu">
+            <a href="cronograma.html" class="nav-link">Cronograma 📅</a>
+            <a href="equipe.html" class="nav-link">Equipe 👥</a>
+        </nav>
+        <a href="https://forms.gle/ssXJnnqqHM6rTKiy5" target="_blank" class="btn-pop btn-pop-yellow btn-pop-sm">Inscrever-se ✨</a>
+    </div>
+</header>
+
+    <!-- TELA INICIAL (HERO FULLSCREEN) -->
+    <section class="hero-fun">
+        <div class="container hero-fun-content">
+            <div class="logo-hero-wrapper">
+                <img src="assets/img/logo.png" alt="Semana da Educação Inclusiva" class="logo-hero-img">
+            </div>
+            
+            <span class="fun-badge">🗓️ 09 a 13 de Novembro</span>
+            <h1 class="fun-title">Semana da Educação Inclusiva</h1>
+            <p class="fun-subtitle">Aprendizagem, Afeto & Transformação</p>
+            
+            <div class="hero-buttons">
+                <a href="https://forms.gle/ssXJnnqqHM6rTKiy5" target="_blank" class="btn-pop btn-pop-pink">Garantir minha vaga 🚀</a>
+                <a href="cronograma.html" class="btn-pop btn-pop-blue">Ver Cronograma 📖</a>
+            </div>
+
+            <div class="scroll-fun">
+                <p>Role e descubra</p>
+                <div class="bounce-arrow">👇</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTEÚDO PRINCIPAL COM FUNDO ILUMINADO -->
+    <main class="main-content">
+        
+        <!-- Partículas Coloridas Flutuantes (JS) -->
+        <div id="particles-container"></div>
+        
+        <!-- SÍMBOLO UNIVERSAL DA INCLUSÃO NA MARCA D'ÁGUA DE FUNDO -->
+        <div class="inclusion-watermark-img">
+            <img src="assets/img/imagem.png" alt="Símbolo Universal da Inclusão">
+        </div>
+
+        <div class="container">
+            
+            <!-- CARTÃO DO TEMA CENTRAL -->
+            <div class="fun-card theme-card">
+                <div class="card-badge badge-blue">Tema Geral 2026</div>
+                <h2>Potencialidades que Transformam:</h2>
+                <h3>Aprendizagem e Desenvolvimento na Deficiência</h3>
+                
+                <div class="fun-divider"></div>
+                
+                <div class="highlights-pill-wrapper">
+                    <span class="highlight-pill pill-green">⚡ Atividades Síncronas (Lives Ao Vivo)</span>
+                    <span class="highlight-pill pill-purple">📚 Atividades Assíncronas (E-books & Vídeos)</span>
+                </div>
+
+                <p class="description">
+                    Uma jornada de conhecimento completa e flexível. <strong>Aviso Importante:</strong> Todos os materiais e links de acesso são <strong>liberados gradativamente</strong> conforme a programação diária. Nossa programação conta com <strong>duas transmissões ao vivo especiais (síncronas)</strong> e conteúdos assíncronos complementares.
+                </p>
+            </div>
+
+            <!-- CARTÃO PALESTRA MAGNA AO VIVO (11/11) -->
+            <div class="fun-card live-card-fun border-left-green">
+                <div class="live-badge-fun badge-green-light">🔴 Transmissão Ao Vivo • 11/11 (Quarta-feira) às 19h00 (Horário de Brasília)</div>
+                <h2>Palestra Magna</h2>
+                <h3 class="lecture-title-fun">"Desafios e possibilidades no cotidiano educacional inclusivo: construindo pontes com o DUA (Desenho Universal para Aprendizagem)"</h3>
+                
+                <div class="speaker-grid-fun">
+                    <div class="speaker-photo-wrapper">
+                        <img src="assets/img/lucileia.png" alt="Profª Mª Luciléia Bechmann Saldanha" class="speaker-photo-fun">
+                    </div>
+                    
+                    <div class="speaker-details">
+                        <h3 class="speaker-name-fun">Profª Mª Luciléia Bechmann Saldanha</h3>
+                        <span class="speaker-tag">Palestrante Convidada</span>
+                        <p class="speaker-bio-fun">
+                            Professora Regente na UniCesumar. Educadora Especial (UFSM), especialista em Transtorno do Espectro Autista (Unesp) e Mestra em Educação Especial (UFSCar).
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARTÃO FORMATO DE CONVIDE: DIA DO PSICOPEDAGOGO (12/11) -->
+            <div class="fun-card extra-event-card border-left-purple invitation-style">
+                <div class="extra-header">
+                    <span class="live-badge-fun badge-purple-light">💌 Convite Especial • Transmissão Ao Vivo • 12/11 às 19h00 (Brasília)</span>
+                    <h2>Comemoração do Dia do Psicopedagogo</h2>
+                    <h3 class="lecture-title-fun purple-text">"Além da dificuldade: caminhos para o desenvolvimento"</h3>
+                    
+                    <!-- ESCLARECIMENTO SOLICITADO: PSICOPEDAGOGO NÃO É PROFESSOR -->
+                    <div style="background: rgba(142, 67, 231, 0.08); border-left: 4px solid var(--color-purple); padding: 15px; border-radius: 8px; margin: 15px 0;">
+                        <p style="font-size: 0.95rem; color: var(--text-main); line-height: 1.5; margin: 0;">
+                            💡 <strong>Nota de Esclarecimento Profissional:</strong> Destacamos que <em>o psicopedagogo não é professor</em>. Enquanto a docência ensina conteúdos curriculares, a Psicopedagogia atua na investigação, prevenção e intervenção clínica e institucional dos processos cognitivos e afetivos da aprendizagem humana.
+                        </p>
+                    </div>
+
+                    <p class="extra-subtitle">Evento aberto a toda a comunidade acadêmica, com ênfase especial aos estudantes de Psicopedagogia.</p>
+                </div>
+
+                <div class="compact-speakers-grid">
+                    <div class="compact-speaker-item">
+                        <div class="compact-photo-frame">
+                            <img src="assets/img/bruna.jpg" alt="Profª Bruna Aparecida Damasceno" class="compact-photo">
+                        </div>
+                        <div class="compact-info">
+                            <h4>Profª Bruna Aparecida Damasceno</h4>
+                            <span>Mestranda em Educação - Publicações em artigos de livros como: Transtorno do Processamento Auditivo: Pensando práticas pedagógicas para a apropriação do sistema alfabético. Outro artigo publicado em livro foi: Reflexões sobre inclusão e acessibilidade no ambiente escolar a partir do Filme Extraordinário.</span>
+                        </div>
+                    </div>
+
+                    <div class="compact-speaker-item">
+                        <div class="compact-photo-frame">
+                            <img src="assets/img/renata.jpg" alt="Profª Renata Hannay Vidal Pereira" class="compact-photo">
+                        </div>
+                        <div class="compact-info">
+                            <h4>Profª Renata Hannay Vidal Pereira</h4>
+                            <span>Psicopedagoga Clínica - Graduada em Artes Visuais pela Universidade Estadual de Maringá (UEM) e em Pedagogia pelo Centro Universitário de Maringá (UniCesumar). Possui pós-graduação em Psicopedagogia pela UEM e formação complementar em Montessori, com estudos voltados ao desenvolvimento infantil, à matemática e à alfabetização pelo método fônico.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- RODAPÉ SIMPLES -->
+    <footer class="footer-fun" style="padding: 3rem 0 2rem 0; text-align: center;">
+        <div class="container">
+            <div class="symbol-footer" style="width: 55px; height: 55px; margin: 0 auto 1rem auto;">
+                <img src="assets/img/imagem.png" alt="Símbolo Universal da Inclusão" style="width: 100%; height: 100%; object-fit: contain;">
+            </div>
+            
+            <p style="margin-bottom: 1rem; font-weight: 600; color: var(--text-main);">
+                Conheça quem faz acontecer: <a href="equipe.html" style="color: var(--color-purple); text-decoration: underline;">Acesse a página da Equipe</a>
+            </p>
+            
+            <div class="copyright-fun" style="border: none; padding-top: 0;">
+                <p>&copy; 2026 Semana da Educação Inclusiva | Desenvolvido com afeto e carinho.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

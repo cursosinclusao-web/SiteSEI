@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronograma | Semana da Educação Inclusiva</title>
+    
+    <!-- Tipografia Divertida e Arredondada -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="assets/img/logo.png">
+</head>
+<body>
+
+    <!-- BARRA SUPERIOR FIXA ALEGRE -->
+    <!-- BARRA SUPERIOR FIXA ALEGRE -->
+<header class="sticky-header visible" id="sticky-header">
+    <!-- LADO ESQUERDO: LOGO E TÍTULO DO EVENTO -->
+    <div class="sticky-left">
+        <a href="home.html" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
+            <img src="assets/img/logo.png" alt="Logo Inclusiva" class="mini-logo">
+            <h2 class="sticky-title">Semana da Educação Inclusiva</h2>
+        </a>
+    </div>
+
+    <!-- LADO DIREITO: MENU DE NAVEGAÇÃO + BOTÃO DE INSCRIÇÃO -->
+    <div class="sticky-right">
+        <nav class="nav-menu">
+            <a href="home.html" class="nav-link">Início</a>
+            <a href="equipe.html" class="nav-link">Equipe 👥</a>
+        </nav>
+        <a href="https://forms.gle/ssXJnnqqHM6rTKiy5" target="_blank" class="btn-pop btn-pop-yellow btn-pop-sm">Inscrever-se ✨</a>
+    </div>
+</header>
+
+    <main class="main-content" style="padding-top: 110px;">
+        
+        <!-- Partículas Coloridas Flutuantes (JS) -->
+        <div id="particles-container"></div>
+        
+        <!-- SÍMBOLO UNIVERSAL DA INCLUSÃO NA MARCA D'ÁGUA DE FUNDO -->
+        <div class="inclusion-watermark-img">
+            <img src="assets/img/imagem.png" alt="Símbolo Universal da Inclusão">
+        </div>
+        
+        <div class="container">
+            
+            <!-- CABEÇALHO DO CRONOGRAMA COM AVISO DE LIBERAÇÃO GRADATIVA -->
+            <div class="fun-card theme-card" style="margin-bottom: 3.5rem;">
+                <div class="card-badge badge-purple">Programação Oficial</div>
+                <h2>Jornada Dia a Dia</h2>
+                <p class="description" style="margin-top: 12px;">
+                    Siga a nossa linha do tempo abaixo. <strong>Aviso Importante:</strong> O acesso aos links de materiais, videoaulas e transmissões ao vivo será <strong>liberado gradativamente</strong> em cada data correspondente, permitindo que você estude no seu próprio ritmo e garanta suas horas complementares!
+                </p>
+            </div>
+
+            <!-- LINHA DO TEMPO CRONOLÓGICA (TIMELINE INTERATIVA) -->
+            <div class="timeline-fun">
+                
+                <!-- DIA 09/11 (SEGUNDA-FEIRA) -->
+                <div class="timeline-box left">
+                    <div class="timeline-dot-fun dot-blue">09</div>
+                    <div class="fun-card timeline-card border-top-blue">
+                        <span class="day-tag tag-blue">📅 09/11 • Segunda-feira</span>
+                        <h4>Abertura & Leituras Iniciais</h4>
+                        <p class="timeline-desc">Início da nossa semana com materiais de fundamentação teórica e boas-vindas institucionais.</p>
+                        <div class="resource-links-fun">
+    <a href="https://drive.google.com/file/d/1mc-KrQb_r1poamAOxshz-FMNTjL2Fqvm/view?usp=sharing" target="_blank" class="btn-resource active-btn">📖 Baixar E-book Guia do Evento</a>
+    <a href="#" target="_blank" class="btn-resource active-btn">▶️ Vídeo de Abertura (Prof.ª Waleria)</a>
+</div>
+                    </div>
+                </div>
+
+                <!-- DIA 10/11 (TERÇA-FEIRA) -->
+                <div class="timeline-box right">
+                    <div class="timeline-dot-fun dot-pink">10</div>
+                    <div class="fun-card timeline-card border-top-pink">
+                        <span class="day-tag tag-pink">📅 10/11 • Terça-feira</span>
+                        <h4>Trilha de Aprendizagem</h4>
+                        <p class="timeline-desc">Aulas gravadas em formato de playlist sobre práticas pedagógicas inclusivas.</p>
+                        <div class="resource-links-fun" id="link-dia-10">
+    <button class="btn-resource locked-btn" disabled>🔒 Playlist de Aulas (Disponível em 10/11)</button>
+</div>
+                    </div>
+                </div>
+
+                <!-- DIA 11/11 (QUARTA-FEIRA - PALESTRA MAGNA) -->
+                <div class="timeline-box left">
+                    <div class="timeline-dot-fun dot-green">11</div>
+                    <div class="fun-card timeline-card highlight-live border-left-green">
+                        <span class="day-tag tag-green">🔴 11/11 • Quarta-feira às 19h00 (Brasília)</span>
+                        <h4>Palestra Magna Ao Vivo</h4>
+                        <h5 class="timeline-lecture-title">"Desafios e possibilidades no cotidiano educacional inclusivo: construindo pontes com o DUA"</h5>
+                        <p class="timeline-desc">
+                            Transmissão ao vivo com a palestrante convidada <strong>Profª Mª Luciléia Bechmann Saldanha</strong>.
+                        </p>
+                        <div class="resource-links-fun" id="link-dia-11-live">
+    <button class="btn-resource locked-btn" disabled>🔒 Link da Transmissão Ao Vivo (Liberado no dia 11/11)</button>
+</div>
+                    </div>
+                </div>
+
+                <!-- DIA 12/11 (QUINTA-FEIRA - DIA DO PSICOPEDAGOGO) -->
+                <div class="timeline-box right">
+                    <div class="timeline-dot-fun dot-purple">12</div>
+                    <div class="fun-card timeline-card highlight-live border-left-purple" style="background: #FAF5FF;">
+                        <span class="day-tag tag-purple">🔴 12/11 • Quinta-feira às 19h00 (Brasília)</span>
+                        <h4>Comemoração do Dia do Psicopedagogo 🎉</h4>
+                        <h5 class="timeline-lecture-title purple-text">"Além da dificuldade: caminhos para o desenvolvimento"</h5>
+                        <p class="timeline-desc">
+                            Encontro especial voltado a destacar sua atuação foca na compreensão dos processos de aprendizagem, prevenção e intervenção clínica/institucional nas dificuldades e transtornos.
+                        </p>
+                        <div class="resource-links-fun">
+    <div id="link-dia-12-live" style="width: 100%; margin-bottom: 10px;">
+        <button class="btn-resource locked-btn" disabled>🔒 Link da Transmissão Ao Vivo (Liberado no dia 12/11)</button>
+    </div>
+    <div id="link-dia-12-resenha" style="width: 100%;">
+        <button class="btn-resource locked-btn" disabled>🔒 Indicação de Filmes & Resenha (Disponível em 12/11)</button>
+    </div>
+</div>
+                    </div>
+                </div>
+
+                <!-- DIA 13/11 (SEXTA-FEIRA) -->
+                <div class="timeline-box left">
+                    <div class="timeline-dot-fun dot-yellow">13</div>
+                    <div class="fun-card timeline-card border-top-yellow">
+                        <span class="day-tag tag-yellow">📅 13/11 • Sexta-feira</span>
+                        <h4>Consolidação & Estudo de Caso</h4>
+                        <p class="timeline-desc">Aplicação prática do conhecimento construído ao longo da semana.</p>
+                        <div class="resource-links-fun" id="link-dia-13">
+    <button class="btn-resource locked-btn" disabled>🔒 Estudo de Caso Prático (Disponível em 13/11)</button>
+</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- RODAPÉ SIMPLES -->
+    <footer class="footer-fun" style="padding: 3rem 0 2rem 0; text-align: center;">
+        <div class="container">
+            <div class="symbol-footer" style="width: 55px; height: 55px; margin: 0 auto 1rem auto;">
+                <img src="assets/img/imagem.png" alt="Símbolo Universal da Inclusão" style="width: 100%; height: 100%; object-fit: contain;">
+            </div>
+            
+            <p style="margin-bottom: 1rem; font-weight: 600; color: var(--text-main);">
+                Conheça quem faz acontecer: <a href="equipe.html" style="color: var(--color-purple); text-decoration: underline;">Acesse a página da Equipe e Organização</a>
+            </p>
+            
+            <div class="copyright-fun" style="border: none; padding-top: 0;">
+                <p>&copy; 2026 Semana da Educação Inclusiva | Desenvolvido com afeto e carinho.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
