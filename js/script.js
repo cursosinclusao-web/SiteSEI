@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             id: 'link-dia-11-live',
-            dataLiberacao: new Date(2026, 11, 11, 8, 0, 0).getTime(), // 11/11 às 08h00
+            dataLiberacao: new Date(2026, 10, 11, 8, 0, 0).getTime(), // 11/11 às 08h00
             linkHtml: `<a href="https://www.youtube.com/watch?v=rR_4OXvSMYM" target="_blank" class="btn-resource active-btn btn-pink">🔴 Entrar na Live: Palestra Magna (Ao Vivo)</a>`
         },
         {
